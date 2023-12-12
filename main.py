@@ -1,6 +1,7 @@
 import telegram.ext
 from dotenv import load_dotenv
 import os
+import urllib3  # Make sure to import urllib3 if needed
 
 load_dotenv()
 TOKEN = os.getenv("TOKEN")
