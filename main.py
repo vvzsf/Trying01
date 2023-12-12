@@ -11,5 +11,5 @@ def start(update, context):
 updater telegram.ext.Updater (TOKEN, use_context = True)
 dispatch updater.dispatcher
 
-updater.start_pooling()
+updater.start_polling()
 updater.idle()
